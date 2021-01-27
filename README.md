@@ -74,7 +74,7 @@ Restaurant staff should be able to manage the stock through a web application as
 
 ### **Phase 1** Getting started
 
-We will be starting off with how to make a basic project and refactoring it into a solution following the single responsibility principle and how to set up a basic clean code architecture. This setup format will be used throughout the incubator.
+Let's start off with how to make a basic project and refactor it into a solution following the Single Responsibility principle (SOLID principles) and how to set up a basic clean code architecture. You will be using this setup format throughout the rest of the incubator.
 
 Overview
 - [ ] [TDDD and Unit Testing](https://web.microsoftstream.com/video/ffd65354-c7b0-49c2-a9f7-2d90a7fbb565?channelId=fe5bc582-9acb-4952-9b71-b29aab0bc9e9)
@@ -84,7 +84,7 @@ Overview
 
 ### **Phase 2** Scaffolding
 
-We will be extending the foundation from Phase 1 to all Entities CRUD operations, we will also be moving to use CQRS Pattern and Mediatr NuGet Package.
+Here we will extend the foundation from Phase 1 to all Entities CRUD operations, as well as make use of the CQRS Pattern and Mediatr NuGet Package.
 
 Overview
 - [ ] [Working with Data in C#](https://web.microsoftstream.com/channel/fe5bc582-9acb-4952-9b71-b29aab0bc9e9)
@@ -94,7 +94,7 @@ Overview
 
 ### **Phase 3 - Handling Data**
 
-Now that we have deployed phase 2, we can make a few enhancements. Also, it will be easier for the customer and admin to search and filter through the data, so we will add that in as well.
+Now that we have deployed phase 2, let's make a few enhancements. It will be easier for the customer and admin to search and filter through the data, so let's add that in.
 
 Overview
 - [ ] [Concurrency](https://web.microsoftstream.com/video/56e7e456-69e6-4f2b-8eec-ddb118c3aa5f?channelId=fe5bc582-9acb-4952-9b71-b29aab0bc9e9)
@@ -108,7 +108,7 @@ Improve how data is displayed and validated
 
 ### **Phase 4 - Standards and Error Handling**
 
- When we work as part of a team, we usually need to adhere to coding standards. Let's have a look at how we can enforce some of the most basic standards and adding error handling.
+Good error handling will save you a lot of headaches later as well as time. The same goes for coding standards. When working as part of a team, it is good practice to adhere to coding standards so that the team can switch between each other's code seamlessly. Let's have a look at how we can enforce some of the most basic standards and add error handling.
   
 Overview
 - [ ] [Error Handling](https://web.microsoftstream.com/video/5fcd4c8a-4e7b-41ac-9836-d1366da97c82?channelId=fe5bc582-9acb-4952-9b71-b29aab0bc9e9)
@@ -117,7 +117,7 @@ Overview
   
 ### **Phase 5** - Improving Performance
 
-For improved performance we relaised that certain data doesn't change often and can be cached. We can also add a few small changes to improve performance.
+Next is performance. Who wants to use a good system if it's slow, right? Data that won't change often can be cached to increase speed and compression reduces the payload. Do it right and even IE can run it fast... well maybe. These are relatively small changes that make a big difference, so let's get started.
 
 Overview
 - [ ] [Performance and Memory Management](https://web.microsoftstream.com/video/64098be8-6979-4c10-85f4-efa91d0cb1f1?channelId=fe5bc582-9acb-4952-9b71-b29aab0bc9e9)
@@ -129,7 +129,7 @@ Increasing Performance
 
 ### **Phase 6** - Events
 
-We would like to notify the customer as soon as his order has been completed and ready for collection.
+The customer has to be notified as soon as his order has been completed and ready for collection. We will use emails for notifications and trigger it using Domain Events.
 
 Increasing Performance
 
@@ -138,7 +138,7 @@ Increasing Performance
 
 ### **Phase 7**
 
-Now that we have increased the performance lets and an increase of customers we need to secure our website.
+Now that we have increased the performance and can notify the customers of orders, we need to secure the website.
 
 Overview
 - [ ] [Security](https://web.microsoftstream.com/video/2a2b5226-34cb-49ac-b8fe-880cb9ac893c?channelId=fe5bc582-9acb-4952-9b71-b29aab0bc9e9)
@@ -153,7 +153,7 @@ Overview
 - [ ] [MVC Part 1](https://web.microsoftstream.com/video/61e64cfa-c3ba-45c3-9811-e5bc25968a2a?channelId=fe5bc582-9acb-4952-9b71-b29aab0bc9e9)
 - [ ] [MVC Part 2](https://web.microsoftstream.com/video/315b2034-0aa5-43ee-b030-562f4a597cfd?channelId=fe5bc582-9acb-4952-9b71-b29aab0bc9e9)
 
-We will be building a basic Pizza website for Customers and a basic Admin Back-End. To help us doing this we will using the Pezza Branding Guide & Design System.
+Now we can start building a basic pizza website for customers and a basic back-end for the admin. To help us with this, we will make use of the Pezza Branding Guide & Design System.
 
 [Documentation](https://web.microsoftstream.com/video/315b2034-0aa5-43ee-b030-562f4a597cfd?channelId=fe5bc582-9acb-4952-9b71-b29aab0bc9e9)
 
@@ -173,5 +173,5 @@ We will be building a basic Pizza website for Customers and a basic Admin Back-E
   
 ### **Phase 9** - Coming soon
 
-We want customers to have the ability to track their orders.
+Now that the basics are done, how about giving customers the ability to track their orders? To do this in real-time, we will use SignalR.
 - [ ] SignalR
